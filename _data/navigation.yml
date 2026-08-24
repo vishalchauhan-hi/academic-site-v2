@@ -1,16 +1,15 @@
-# Main navigation for Vishal Chauhan's academic site.
 main:
   - title: "Research"
     url: /#research
 
   - title: "Publications"
-    url: "https://vishalchauhan-hi.github.io/publications.html"
+    url: /publications/
 
-  - title: "Highlights"
-    url: /#news
+  - title: "Talks"
+    url: /talks/
+
+  - title: "Projects"
+    url: /portfolio/
 
   - title: "CV"
-    url: "https://vishalchauhan-hi.github.io/cv.html"
-
-  - title: "Contact"
-    url: /#contact
+    url: /cv/
