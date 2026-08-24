@@ -14,8 +14,8 @@ redirect_from:
 My doctoral work in the [Tsukada Laboratory](https://tlab.hongo.wide.ad.jp/) centres on the **Smart Pole Interaction Unit (SPIU)**—an infrastructure-side external human–machine interface that helps pedestrians, autonomous vehicles, and robots communicate more clearly in shared spaces. I build with AI, but design for human judgment, context, and care.
 
 <div class="vc-actions">
-  <a class="vc-button vc-button--primary" href="{{ site.url }}/publications/">View publications</a>
-  <a class="vc-button" href="{{ site.url }}/cv/">Curriculum vitae</a>
+  <a class="vc-button vc-button--primary" href="https://vishalchauhan-hi.github.io/publications.html">View publications</a>
+  <a class="vc-button" href="https://vishalchauhan-hi.github.io/cv.html">Curriculum vitae</a>
 </div>
 
 <h2 id="research">Research</h2>
