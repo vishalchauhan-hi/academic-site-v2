@@ -7,6 +7,8 @@ number: "03"
 stage: "Open-source research infrastructure"
 methods: "Unity · AWSIM · VR · Scenario authoring · Reproducible evaluation"
 result: "Supports repeatable studies across road layouts, visibility conditions, and complex interaction scenarios."
+thumbnail: "/images/publications/vrst.webp"
+thumbnail_alt: "Virtual-reality street-crossing scenario built with the Smartpole-VR-AWSIM testbed"
 primary_url: "https://github.com/tlab-wide/Smartpole-VR-AWSIM"
 primary_label: "GitHub repository"
 ---

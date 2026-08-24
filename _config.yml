@@ -134,13 +134,18 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_description           : "HCI researcher designing understandable interactions among people, autonomous vehicles, robots, and intelligent urban environments."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Vishal Chauhan"
+  links:
+    - "https://scholar.google.com/citations?user=SHkxvc4AAAAJ"
+    - "https://orcid.org/0009-0003-4901-9917"
+    - "https://www.researchgate.net/profile/Vishal-Chauhan-17"
+    - "https://github.com/vishalchauhan-hi"
+    - "https://www.linkedin.com/in/aivishalcom/"
 
 
 # Analytics

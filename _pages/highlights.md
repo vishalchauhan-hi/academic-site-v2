@@ -11,6 +11,7 @@ author_profile: true
 
 <div class="milestone-list milestone-list--full">
   <div><time>Aug–Sep</time><p>Research talk at <a href="https://civ-summerschool.org/">CIV Summer School 2026</a> in Miyazaki: <em>Who Goes First? Reducing Pedestrian Decision-Making Burden with Infrastructure-Side eHMI in Shared Spaces</em>.</p></div>
+  <div><time>Jul</time><p>Successfully completed the final Ph.D. defense at The University of Tokyo.</p></div>
   <div><time>Jul</time><p><a href="https://doi.org/10.1007/978-3-032-30798-9_10"><em>Colored Shared Spaces</em></a> published at HCII 2026 in Montréal.</p></div>
   <div><time>Apr</time><p>Two papers presented at ACM CHI 2026 in Barcelona; both received Honourable Mention Awards: <a href="https://doi.org/10.1145/3772318.3790882">mobile SPIU</a> and <a href="https://doi.org/10.1145/3772318.3790537">VLM personas</a>.</p></div>
   <div><time>Mar</time><p>Two CHI 2026 papers accepted with Honourable Mention recognition.</p></div>

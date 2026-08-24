@@ -17,7 +17,7 @@ My doctoral research centers on the **Smart Pole Interaction Unit (SPIU)**—an 
 
 I build with AI, but design for **human intelligence**: the judgment, context, and care that machines do not have. Collaborations across Japan, Singapore, Canada, Norway, and beyond continue to shape how I think about future cities and how humans and machines can share them.
 
-Before my PhD, I completed a master's degree at The University of Tokyo and a bachelor's degree at Vel Tech, with an exchange semester at Nanyang Technological University. Alongside my academic work, I contribute to autonomous-driving systems at TIER IV and to the open-source Autoware ecosystem.
+Before my PhD, I completed a master's degree at The University of Tokyo and a bachelor's degree at Vel Tech, with an exchange semester at Nanyang Technological University. Alongside my academic work, I contribute to autonomous-driving systems and the open-source Autoware ecosystem at TIER IV, and study human–robot interaction with mobile service robots at AIST.
 
 {% include research-animation.html %}
 
@@ -45,6 +45,40 @@ Before my PhD, I completed a master's degree at The University of Tokyo and a ba
   <div><strong>VR → field</strong><span>prototype-to-deployment research</span></div>
   <div><strong>JP + NO</strong><span>cross-cultural evaluation</span></div>
 </div>
+
+<section class="evidence-trail" aria-labelledby="evidence-trail-title">
+  <div class="evidence-trail__intro">
+    <p>Research trajectory</p>
+    <h2 id="evidence-trail-title">From sketch to street.</h2>
+    <span>One interface developed through four complementary forms of evidence.</span>
+  </div>
+  <ol>
+    <li>
+      <span class="evidence-trail__index">01</span>
+      <h3>Frame the interaction</h3>
+      <p>Introduce roadside communication for single- and multi-vehicle encounters.</p>
+      <a href="https://doi.org/10.1109/WF-IoT58464.2023.10539511">Concept · 2023 ↗</a>
+    </li>
+    <li>
+      <span class="evidence-trail__index">02</span>
+      <h3>Compare perspectives</h3>
+      <p>Study 25 people and three multimodal LLMs as complementary design voices.</p>
+      <a href="https://doi.org/10.1016/j.ijhcs.2025.103628">Human + AI · 2025 ↗</a>
+    </li>
+    <li>
+      <span class="evidence-trail__index">03</span>
+      <h3>Test across cultures</h3>
+      <p>Evaluate dynamic shared spaces with 40 participants in Japan and Norway.</p>
+      <a href="https://doi.org/10.1145/3756884.3765991">VR · 2025 ↗</a>
+    </li>
+    <li>
+      <span class="evidence-trail__index">04</span>
+      <h3>Meet the street</h3>
+      <p>Deploy mobile SPIU with 21 pedestrians in an in-the-wild field study.</p>
+      <a href="https://doi.org/10.1145/3772318.3790882">Field · 2026 ↗</a>
+    </li>
+  </ol>
+</section>
 
 ## Research {#research}
 
@@ -96,6 +130,7 @@ My research asks one central question: **how can autonomous systems communicate 
 
 <div class="milestone-list">
   <div><time>Aug–Sep 2026</time><p>Research talk at CIV Summer School 2026 in Miyazaki: <em>Who Goes First?</em></p></div>
+  <div><time>Jul 2026</time><p>Successfully completed the final Ph.D. defense at The University of Tokyo.</p></div>
   <div><time>Jul 2026</time><p><em>Colored Shared Spaces</em> published at HCII 2026 in Montréal.</p></div>
   <div><time>Apr 2026</time><p>Two papers presented at ACM CHI 2026 in Barcelona; both received Honourable Mention Awards.</p></div>
   <div><time>Nov 2025</time><p>Presented the cross-cultural SPIU study at ACM VRST 2025 in Montréal.</p></div>
@@ -113,4 +148,15 @@ My research asks one central question: **how can autonomous systems communicate 
 
 ## Contact {#contact}
 
-I welcome conversations about collaboration in human–autonomy interaction, robotics, and future cities. Email [vishalchauhan@g.ecc.u-tokyo.ac.jp](mailto:vishalchauhan@g.ecc.u-tokyo.ac.jp) or [vishalchauhan@outlook.sg](mailto:vishalchauhan@outlook.sg), or use the academic and professional profiles in the sidebar.
+<div class="contact-panel">
+  <div>
+    <p class="contact-panel__label">Collaboration</p>
+    <h3>Let's design autonomy people can read.</h3>
+    <p>I welcome conversations about human–autonomy interaction, robotics, intelligent environments, and research that moves from prototypes into the world.</p>
+  </div>
+  <div class="contact-panel__links">
+    <a href="mailto:vishalchauhan@g.ecc.u-tokyo.ac.jp"><span>Academic email</span><strong>vishalchauhan@g.ecc.u-tokyo.ac.jp</strong></a>
+    <a href="mailto:vishalchauhan@outlook.sg"><span>Personal email</span><strong>vishalchauhan@outlook.sg</strong></a>
+    <a href="https://tlab.hongo.wide.ad.jp/" target="_blank" rel="noopener"><span>Research home</span><strong>Tsukada Laboratory ↗</strong></a>
+  </div>
+</div>

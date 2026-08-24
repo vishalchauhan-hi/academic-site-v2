@@ -42,6 +42,7 @@ author_profile: true
         <a href="{{ post.paperurl }}" target="_blank" rel="noopener">Paper ↗</a>
         {% if post.secondary_url %}<a href="{{ post.secondary_url }}" target="_blank" rel="noopener">{{ post.secondary_label }} ↗</a>{% endif %}
         <a href="{{ post.url | relative_url }}">Details →</a>
+        <button class="citation-copy" type="button" data-citation="{{ post.citation | strip_html | strip_newlines | escape }}">Copy citation</button>
       </p>
       {% if post.note %}<p class="publication-entry__note">{{ post.note }}</p>{% endif %}
     </div>
@@ -50,3 +51,5 @@ author_profile: true
   {% if forloop.last %}</div></section>{% endif %}
 {% endfor %}
 </div>
+
+<script src="{{ '/assets/js/site-interactions.js' | relative_url }}" defer></script>

@@ -11,16 +11,23 @@ author_profile: true
 {% for post in site.portfolio %}
   <article class="system-entry">
     <p class="system-entry__number">{{ post.number }}</p>
-    <div>
-      <p class="system-entry__meta">{{ post.stage }}</p>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-      <p class="system-entry__methods">{{ post.methods }}</p>
-      <p class="system-entry__result">{{ post.result }}</p>
-      <p class="publication-entry__actions">
-        <a href="{{ post.url | relative_url }}">System details →</a>
-        {% if post.primary_url %}<a href="{{ post.primary_url }}" target="_blank" rel="noopener">{{ post.primary_label }} ↗</a>{% endif %}
-      </p>
+    <div class="system-entry__body">
+      {% if post.thumbnail %}
+        <a class="system-entry__visual" href="{{ post.url | relative_url }}" aria-label="Explore {{ post.title }}">
+          <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.thumbnail_alt }}" loading="lazy">
+        </a>
+      {% endif %}
+      <div class="system-entry__copy">
+        <p class="system-entry__meta">{{ post.stage }}</p>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p>{{ post.excerpt }}</p>
+        <p class="system-entry__methods">{{ post.methods }}</p>
+        <p class="system-entry__result">{{ post.result }}</p>
+        <p class="publication-entry__actions">
+          <a href="{{ post.url | relative_url }}">System details →</a>
+          {% if post.primary_url %}<a href="{{ post.primary_url }}" target="_blank" rel="noopener">{{ post.primary_label }} ↗</a>{% endif %}
+        </p>
+      </div>
     </div>
   </article>
 {% endfor %}

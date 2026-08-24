@@ -18,7 +18,7 @@ I work on human–machine interaction, autonomous vehicles, and robotics—desig
 ## Education
 
 <div class="cv-list">
-  <div class="cv-entry"><time>Oct 2023 – Sep 2026</time><div><h3>Ph.D., Creative Informatics</h3><p>Graduate School of Information Science and Technology, The University of Tokyo · Tsukada Laboratory</p><p>Fellowship for Creation of Intelligent World. Advisor: Prof. Manabu Tsukada.</p></div></div>
+  <div class="cv-entry"><time>Oct 2023 – Sep 2026</time><div><h3>Ph.D., Creative Informatics</h3><p>Graduate School of Information Science and Technology, The University of Tokyo · Tsukada Laboratory</p><p>Final defense completed in July 2026; degree expected September 2026. Fellowship for Creation of Intelligent World. Advisor: Prof. Manabu Tsukada.</p></div></div>
   <div class="cv-entry"><time>Oct 2021 – Oct 2023</time><div><h3>M.S., Creative Informatics</h3><p>The University of Tokyo · GPA 3.0/3.0 · Todai Fellowship.</p></div></div>
   <div class="cv-entry"><time>2016 – 2020</time><div><h3>B.Tech., Information Technology</h3><p>Vel Tech University, India, with study at Nanyang Technological University, Singapore · GPA 8.37/10.</p></div></div>
 </div>
