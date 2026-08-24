@@ -28,8 +28,8 @@ author:
   bio              : "HCI researcher designing interactions among people, autonomous vehicles, robots, and urban infrastructure."
   location         : "Tokyo, Japan"
   employer         : "The University of Tokyo"
-  uri              : # URL
-  email            :
+  uri              : "https://tlab.hongo.wide.ad.jp/"
+  email            : "vishalchauhan@outlook.sg"
 
   # Academic websites
   academia         : # URL
@@ -41,7 +41,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           :
-  researchgate     :
+  researchgate     : "https://www.researchgate.net/profile/Vishal-Chauhan-17"
   scopus           : # URL
   zotero           : # URL
 

@@ -6,7 +6,15 @@ permalink: /publication/peeking-ahead-of-the-field-study/
 date: 2026-01-01
 venue: "ACM CHI Conference on Human Factors in Computing Systems"
 paperurl: "https://doi.org/10.1145/3772318.3790537"
-excerpt: "Examines where VLM personas can support early embodied-study design and where human participation remains essential. <strong>CHI 2026 Honourable Mention.</strong>"
+label: "CHI 2026"
+type: "Conference paper"
+award: "🏆 Honourable Mention"
+thumbnail: "/images/publications/vlm-personas.webp"
+thumbnail_alt: "Three-step comparison of field participants, VLM personas, and expert interviews"
+excerpt: "Compares real pedestrians with VLM personas during autonomous-vehicle encounters, showing where simulated personas can support early embodied-study design—and where human participants remain essential."
+secondary_url: "https://arxiv.org/abs/2602.16157"
+secondary_label: "arXiv"
+note: "ACM CHI Conference on Human Factors in Computing Systems · Barcelona, Spain"
 citation: 'Xinyue Gui, Ding Xia, Mark Colley, Yuan Li, <strong>Vishal Chauhan</strong>, Anubhav, Zhongyi Zhou, Ehsan Javanmardi, Stela Hanbyeol Seo, Chia-Ming Chang, Manabu Tsukada, and Takeo Igarashi. (2026). "Peeking Ahead of the Field Study." <i>ACM CHI</i>. Honourable Mention.'
 ---
 
