@@ -11,18 +11,94 @@ redirect_from:
 
 <h1 class="profile-headline">Human intelligence for an autonomous world.</h1>
 
-I am **Vishal Chauhan**, a doctoral candidate in Creative Informatics at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), advised by Prof. Manabu Tsukada and Prof. Takeo Igarashi. I design how people understand, trust, and act around autonomous vehicles, robots, and connected urban environments.
+<p class="profile-lede">I am <strong>Vishal Chauhan</strong>, an HCI researcher at <a href="https://www.u-tokyo.ac.jp/en/">The University of Tokyo</a>. I design how people understand, trust, and act around autonomous vehicles, robots, and connected urban environments.</p>
 
-My doctoral research centers on the **Smart Pole Interaction Unit (SPIU)**—an infrastructure-side external human–machine interface that translates connected-vehicle intent into clear roadside guidance for pedestrians. I have taken this work from early concepts and immersive VR studies to cross-cultural evaluation and an in-the-wild mobile prototype.
+<p class="profile-support">My doctoral work created the <strong>Smart Pole Interaction Unit (SPIU)</strong> and carried it from early sketches through immersive VR, human–AI comparison, cross-cultural evaluation, and an in-the-wild mobile prototype. In parallel, I contribute to Autoware at TIER IV and study human–robot interaction with mobile service robots at AIST.</p>
 
-I build with AI, but design for **human intelligence**: the judgment, context, and care that machines do not have. Collaborations across Japan, Singapore, Canada, Norway, and beyond continue to shape how I think about future cities and how humans and machines can share them.
-
-Before my PhD, I completed a master's degree at The University of Tokyo and a bachelor's degree at Vel Tech, with an exchange semester at Nanyang Technological University. Alongside my academic work, I contribute to autonomous-driving systems and the open-source Autoware ecosystem at TIER IV, and study human–robot interaction with mobile service robots at AIST.
+<nav class="research-entrypoints" aria-label="Explore Vishal Chauhan's work">
+  <a href="{{ '/publications/' | relative_url }}">
+    <span>Published evidence</span>
+    <strong>09 papers <b>→</b></strong>
+  </a>
+  <a href="{{ '/portfolio/' | relative_url }}">
+    <span>Built and evaluated</span>
+    <strong>03 systems <b>→</b></strong>
+  </a>
+  <a href="{{ '/highlights/' | relative_url }}">
+    <span>Research in motion</span>
+    <strong>News &amp; field notes <b>→</b></strong>
+  </a>
+</nav>
 
 {% include research-animation.html %}
 
+<section class="research-lens" data-research-lens data-active="people" aria-labelledby="research-lens-title">
+  <div class="research-lens__intro">
+    <p>Interactive research lens</p>
+    <h2 id="research-lens-title">Rotate the question, not the evidence.</h2>
+    <span>The same autonomous encounter looks different depending on where you stand. Choose a lens to see how I frame it.</span>
+  </div>
+
+  <div class="research-lens__experience">
+    <div class="research-lens__map" role="tablist" aria-label="Research perspectives">
+      <button class="research-lens__node research-lens__node--people is-active" id="lens-tab-people" type="button" role="tab" aria-selected="true" aria-controls="lens-people" data-lens="people">
+        <span>01</span><strong>People</strong><small>perception</small>
+      </button>
+      <button class="research-lens__node research-lens__node--machines" id="lens-tab-machines" type="button" role="tab" aria-selected="false" aria-controls="lens-machines" data-lens="machines">
+        <span>02</span><strong>Machines</strong><small>intent</small>
+      </button>
+      <button class="research-lens__node research-lens__node--places" id="lens-tab-places" type="button" role="tab" aria-selected="false" aria-controls="lens-places" data-lens="places">
+        <span>03</span><strong>Places</strong><small>coordination</small>
+      </button>
+      <button class="research-lens__node research-lens__node--evidence" id="lens-tab-evidence" type="button" role="tab" aria-selected="false" aria-controls="lens-evidence" data-lens="evidence">
+        <span>04</span><strong>Evidence</strong><small>validation</small>
+      </button>
+      <div class="research-lens__core" aria-hidden="true">
+        <span>Design goal</span>
+        <strong>Readable<br>autonomy</strong>
+      </div>
+    </div>
+
+    <div class="research-lens__stories" aria-live="polite">
+      <article class="research-lens__story is-active" id="lens-people" role="tabpanel" aria-labelledby="lens-tab-people" data-lens-panel="people">
+        <p class="research-lens__signal">People · clarity, trust, workload</p>
+        <h3>What must a person understand before taking the next step?</h3>
+        <p>I study how pedestrians read intent, form confidence, and make decisions—across cultures, traffic conditions, and levels of automation.</p>
+        <p class="research-lens__proof"><strong>Study signal</strong><span>40 participants · Japan + Norway</span></p>
+        <a href="{{ '/publications/' | relative_url }}">See the human studies →</a>
+      </article>
+
+      <article class="research-lens__story" id="lens-machines" role="tabpanel" aria-labelledby="lens-tab-machines" data-lens-panel="machines">
+        <p class="research-lens__signal">Machines · AVs and robots</p>
+        <h3>How should autonomy reveal intent without demanding attention?</h3>
+        <p>I prototype vehicle eHMI, mobile roadside interfaces, and robot behaviors that make an autonomous system's next move easier to anticipate.</p>
+        <p class="research-lens__proof"><strong>System signal</strong><span>Vehicle eHMI · mobile SPIU · service robots</span></p>
+        <a href="{{ '/portfolio/' | relative_url }}">Explore the systems →</a>
+      </article>
+
+      <article class="research-lens__story" id="lens-places" role="tabpanel" aria-labelledby="lens-tab-places" data-lens-panel="places">
+        <p class="research-lens__signal">Places · shared intelligence</p>
+        <h3>Can the street itself become part of the conversation?</h3>
+        <p>SPIU moves communication beyond a single vehicle, using connected roadside infrastructure to coordinate understandable guidance in shared spaces.</p>
+        <p class="research-lens__proof"><strong>Environment signal</strong><span>V2X · smart poles · shared spaces</span></p>
+        <a href="{{ '/portfolio/spiu/' | relative_url }}">Meet SPIU →</a>
+      </article>
+
+      <article class="research-lens__story" id="lens-evidence" role="tabpanel" aria-labelledby="lens-tab-evidence" data-lens-panel="evidence">
+        <p class="research-lens__signal">Evidence · beyond the demo</p>
+        <h3>What remains convincing when the prototype meets the world?</h3>
+        <p>Each idea advances through complementary evidence: concept design, immersive simulation, human–AI comparison, cross-cultural replication, and field deployment.</p>
+        <p class="research-lens__proof"><strong>Research signal</strong><span>Sketch → VR → human + AI → field</span></p>
+        <a href="{{ '/publications/' | relative_url }}">Trace the published evidence →</a>
+      </article>
+    </div>
+  </div>
+
+  <p class="research-lens__hint">Select People, Machines, Places, or Evidence. Arrow keys work too.</p>
+</section>
+
 <div class="affiliation-strip" aria-label="Academic, industry, and open-source research context">
-  <p class="affiliation-strip__label">Across academia, industry, and open source</p>
+  <p class="affiliation-strip__label">Research across academia, industry, and open source</p>
   <div class="affiliation-strip__logos">
     <a class="affiliation-strip__link affiliation-strip__utokyo" href="https://www.u-tokyo.ac.jp/en/" target="_blank" rel="noopener" aria-label="The University of Tokyo">
       <span>UTokyo</span>
@@ -39,124 +115,4 @@ Before my PhD, I completed a master's degree at The University of Tokyo and a ba
   </div>
 </div>
 
-<div class="profile-facts" aria-label="Research at a glance">
-  <div><strong>9</strong><span>peer-reviewed publications</span></div>
-  <div><strong>2×</strong><span>ACM CHI Honourable Mention</span></div>
-  <div><strong>VR → field</strong><span>prototype-to-deployment research</span></div>
-  <div><strong>JP + NO</strong><span>cross-cultural evaluation</span></div>
-</div>
-
-<section class="evidence-trail" aria-labelledby="evidence-trail-title">
-  <div class="evidence-trail__intro">
-    <p>Research trajectory</p>
-    <h2 id="evidence-trail-title">From sketch to street.</h2>
-    <span>One interface developed through four complementary forms of evidence.</span>
-  </div>
-  <ol>
-    <li>
-      <span class="evidence-trail__index">01</span>
-      <h3>Frame the interaction</h3>
-      <p>Introduce roadside communication for single- and multi-vehicle encounters.</p>
-      <a href="https://doi.org/10.1109/WF-IoT58464.2023.10539511">Concept · 2023 ↗</a>
-    </li>
-    <li>
-      <span class="evidence-trail__index">02</span>
-      <h3>Compare perspectives</h3>
-      <p>Study 25 people and three multimodal LLMs as complementary design voices.</p>
-      <a href="https://doi.org/10.1016/j.ijhcs.2025.103628">Human + AI · 2025 ↗</a>
-    </li>
-    <li>
-      <span class="evidence-trail__index">03</span>
-      <h3>Test across cultures</h3>
-      <p>Evaluate dynamic shared spaces with 40 participants in Japan and Norway.</p>
-      <a href="https://doi.org/10.1145/3756884.3765991">VR · 2025 ↗</a>
-    </li>
-    <li>
-      <span class="evidence-trail__index">04</span>
-      <h3>Meet the street</h3>
-      <p>Deploy mobile SPIU with 21 pedestrians in an in-the-wild field study.</p>
-      <a href="https://doi.org/10.1145/3772318.3790882">Field · 2026 ↗</a>
-    </li>
-  </ol>
-</section>
-
-## Research {#research}
-
-My research asks one central question: **how can autonomous systems communicate without shifting unnecessary decision-making burden onto people?** I pursue that question through three connected directions.
-
-<div class="research-directions">
-  <div>
-    <span>01 · Moving intelligence</span>
-    <h3>Autonomous mobility</h3>
-    <p>How pedestrians and passengers understand vehicle intent through eHMI, in-cabin HMI, and interaction in shared spaces.</p>
-  </div>
-  <div>
-    <span>02 · Embodied intelligence</span>
-    <h3>Human–robot interaction</h3>
-    <p>How delivery, companion, and service robots communicate, navigate, and cooperate with people in everyday environments.</p>
-  </div>
-  <div>
-    <span>03 · Urban intelligence</span>
-    <h3>Intelligent urban environments</h3>
-    <p>How interactive infrastructure, V2X communication, and urban interfaces can coordinate people and machines.</p>
-  </div>
-</div>
-
-<p class="method-line"><strong>Research approach</strong><span>VR / XR prototyping</span><span>Human-subject studies</span><span>LLM &amp; VLM evaluation</span><span>Cross-cultural studies</span><span>Real-world deployment</span></p>
-
-## Selected work
-
-<div class="selected-work">
-  <article>
-    <p>ACM CHI 2026 · Honourable Mention</p>
-    <h3><a href="https://doi.org/10.1145/3772318.3790882">Don't Worry, Just Follow Me</a></h3>
-    <span>An in-the-wild study with 21 participants showing that mobile SPIU and vehicle eHMI together produced the clearest, safest, and most trusted experience.</span>
-  </article>
-  <article>
-    <p>ACM VRST 2025</p>
-    <h3><a href="https://doi.org/10.1145/3756884.3765991">A Silent Negotiator?</a></h3>
-    <span>A 40-participant study across Japan and Norway examining pedestrian decisions in four challenging shared-space scenarios.</span>
-  </article>
-  <article>
-    <p>IJHCS 2025</p>
-    <h3><a href="https://doi.org/10.1016/j.ijhcs.2025.103628">Human Perception vs. LLM Insights</a></h3>
-    <span>A design study with 25 people and three multimodal LLMs comparing human and AI perspectives on roadside AV communication.</span>
-  </article>
-</div>
-
-<p class="section-link"><a href="{{ '/publications/' | relative_url }}">Explore all nine publications →</a></p>
-
-## Recent milestones
-
-<div class="milestone-list">
-  <div><time>Aug–Sep 2026</time><p>Research talk at CIV Summer School 2026 in Miyazaki: <em>Who Goes First?</em></p></div>
-  <div><time>Jul 2026</time><p>Successfully completed the final Ph.D. defense at The University of Tokyo.</p></div>
-  <div><time>Jul 2026</time><p><em>Colored Shared Spaces</em> published at HCII 2026 in Montréal.</p></div>
-  <div><time>Apr 2026</time><p>Two papers presented at ACM CHI 2026 in Barcelona; both received Honourable Mention Awards.</p></div>
-  <div><time>Nov 2025</time><p>Presented the cross-cultural SPIU study at ACM VRST 2025 in Montréal.</p></div>
-  <div><time>Dec 2024</time><p>Joined TIER IV as a part-time autonomous-driving engineer contributing to Autoware.</p></div>
-</div>
-
-<p class="section-link"><a href="{{ '/highlights/' | relative_url }}">View the complete timeline and conference highlights →</a></p>
-
-## Service & mentoring
-
-- **Peer review:** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) and the *International Journal of Human–Computer Studies*.
-- **IST Research Assistant:** Creative Evolution Project, The University of Tokyo, 2024–2026—student research talks, inclusive activities, events, and media.
-- **Student mentoring:** VR experiment design, AWSIM scenario authoring, and field-study preparation in Tsukada Laboratory.
-- **Team leadership:** M-BIC Mobility Business Innovation Contest, UTokyo × Doshisha, 2022.
-
-## Contact {#contact}
-
-<div class="contact-panel">
-  <div>
-    <p class="contact-panel__label">Collaboration</p>
-    <h3>Let's design autonomy people can read.</h3>
-    <p>I welcome conversations about human–autonomy interaction, robotics, intelligent environments, and research that moves from prototypes into the world.</p>
-  </div>
-  <div class="contact-panel__links">
-    <a href="mailto:vishalchauhan@g.ecc.u-tokyo.ac.jp"><span>Academic email</span><strong>vishalchauhan@g.ecc.u-tokyo.ac.jp</strong></a>
-    <a href="mailto:vishalchauhan@outlook.sg"><span>Personal email</span><strong>vishalchauhan@outlook.sg</strong></a>
-    <a href="https://tlab.hongo.wide.ad.jp/" target="_blank" rel="noopener"><span>Research home</span><strong>Tsukada Laboratory ↗</strong></a>
-  </div>
-</div>
+<script src="{{ '/assets/js/research-lens.js' | relative_url }}" defer></script>

@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+<p class="page-purpose">Profile &amp; experience <span>Education · roles · honours · service · skills</span></p>
+
 <p class="page-intro"><strong>Vishal Chauhan</strong><br>Doctoral Candidate · Tsukada Laboratory · Department of Creative Informatics<br>The University of Tokyo · Tokyo, Japan</p>
 
 <p class="cv-links"><a href="mailto:vishalchauhan@outlook.sg">Email</a> · <a href="{{ site.author.googlescholar }}">Google Scholar</a> · <a href="https://github.com/vishalchauhan-hi">GitHub</a> · <a href="https://www.linkedin.com/in/aivishalcom/">LinkedIn</a> · <a href="https://tlab.hongo.wide.ad.jp/">Tsukada Lab</a></p>
@@ -93,5 +95,20 @@ Udacity Self-Driving Car Nanodegree · Elements of AI, University of Helsinki ·
 ## Languages
 
 English (fluent) · Hindi (native) · Japanese (basic)
+
+## Contact
+
+<div class="contact-panel">
+  <div>
+    <p class="contact-panel__label">Collaboration</p>
+    <h3>Let's design autonomy people can read.</h3>
+    <p>I welcome conversations about human–autonomy interaction, robotics, intelligent environments, and research that moves from prototypes into the world.</p>
+  </div>
+  <div class="contact-panel__links">
+    <a href="mailto:vishalchauhan@g.ecc.u-tokyo.ac.jp"><span>Academic email</span><strong>vishalchauhan@g.ecc.u-tokyo.ac.jp</strong></a>
+    <a href="mailto:vishalchauhan@outlook.sg"><span>Personal email</span><strong>vishalchauhan@outlook.sg</strong></a>
+    <a href="https://tlab.hongo.wide.ad.jp/" target="_blank" rel="noopener"><span>Research home</span><strong>Tsukada Laboratory ↗</strong></a>
+  </div>
+</div>
 
 <p class="page-updated">Updated August 2026.</p>
