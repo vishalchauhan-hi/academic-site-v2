@@ -7,7 +7,7 @@ author_profile: true
 
 <p class="page-purpose">Research in motion <span>Talks · fieldwork · visits · awards</span></p>
 
-<p class="page-intro">A chronological record of papers, talks, research visits, engineering work, and moments beyond the publication list.</p>
+<p class="page-intro">A chronological record of papers, talks, research visits, engineering work, and milestones beyond the publication list.</p>
 
 ## 2026
 
@@ -55,22 +55,4 @@ author_profile: true
   <div><time>Oct 2021</time><p>Started the M.S. in Creative Informatics at The University of Tokyo as a Todai Fellow.</p></div>
 </div>
 
-## Conference & lab moments
-
-<div class="highlight-gallery">
-  <figure><img src="{{ '/images/highlights/chi-honourable-mention.webp' | relative_url }}" alt="ACM CHI 2026 Honourable Mention certificate" loading="lazy"><figcaption>ACM CHI 2026 · Honourable Mention</figcaption></figure>
-  <figure><img src="{{ '/images/highlights/chi-barcelona.webp' | relative_url }}" alt="Vishal Chauhan at ACM CHI 2026 in Barcelona" loading="lazy"><figcaption>ACM CHI 2026 · Barcelona</figcaption></figure>
-  <figure><img src="{{ '/images/highlights/civ-blonay.webp' | relative_url }}" alt="Vishal Chauhan at CIV Summer School in Blonay" loading="lazy"><figcaption>CIV Summer School 2025 · Blonay</figcaption></figure>
-  <figure><img src="{{ '/images/highlights/autoui-stanford.webp' | relative_url }}" alt="Vishal Chauhan visiting the Stanford automotive research facilities" loading="lazy"><figcaption>ACM AutomotiveUI 2024 · Stanford</figcaption></figure>
-  <figure><img src="{{ '/images/highlights/tsukada-lab.webp' | relative_url }}" alt="Members of Tsukada Laboratory" loading="lazy"><figcaption>Tsukada Laboratory · Tokyo</figcaption></figure>
-</div>
-
-## Featured by Tsukada Laboratory
-
-- [Two papers accepted at ACM CHI 2026—both Honourable Mention](https://tlab.hongo.wide.ad.jp/2026/03/10/two-of-our-papers-accepted-at-acm-chi-2026/)
-- [Presentation at ACM VRST 2025, Montréal](https://tlab.hongo.wide.ad.jp/2025/11/18/presentation-at-vrst2025/)
-- [Report on CIV Summer School 2025](https://tlab.hongo.wide.ad.jp/2025/09/08/report-on-civ-summer-school-2025/)
-- [Finalist Award at OzCHI 2024](https://tlab.hongo.wide.ad.jp/2024/12/06/finalist-award-in-ozchi24-student-design-challenge-competition/)
-- [Participation in AutomotiveUI 2024, Stanford](https://tlab.hongo.wide.ad.jp/2024/09/27/participation-in-auto-ui-2024-conference/)
-
-See the complete [talk archive]({{ '/talks/' | relative_url }}) or return to [Papers]({{ '/publications/' | relative_url }}).
+See the visual [Moments]({{ '/moments/' | relative_url }}) page, browse the complete [talk archive]({{ '/talks/' | relative_url }}), or return to [Papers]({{ '/publications/' | relative_url }}).

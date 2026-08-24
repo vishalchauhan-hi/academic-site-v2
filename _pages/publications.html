@@ -25,7 +25,7 @@ author_profile: true
     {% assign current_year = publication_year %}
   {% endif %}
 
-  <article class="publication-entry">
+  <article class="publication-entry{% unless post.thumbnail %} publication-entry--text-only{% endunless %}">
     {% if post.thumbnail %}
       <a class="publication-entry__image" href="{{ post.paperurl }}" target="_blank" rel="noopener" aria-label="Open {{ post.title }}">
         <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.thumbnail_alt }}" loading="lazy">
