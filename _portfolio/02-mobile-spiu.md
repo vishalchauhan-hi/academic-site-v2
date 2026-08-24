@@ -7,6 +7,8 @@ number: "02"
 stage: "In-the-wild prototype"
 methods: "Mobile robotics · Field deployment · 2×2×2×2 experimental design · N=21"
 result: "SPIU combined with vehicle eHMI produced the clearest, safest, and most trusted interaction experience."
+thumbnail: "/images/publications/mobile-spiu.webp"
+thumbnail_alt: "Mobile SPIU delivering WALK and STOP guidance during an outdoor field study"
 primary_url: "https://doi.org/10.1145/3772318.3790882"
 primary_label: "CHI 2026 paper"
 ---

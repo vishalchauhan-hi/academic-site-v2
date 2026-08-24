@@ -7,6 +7,8 @@ number: "01"
 stage: "Core doctoral research program"
 methods: "Concept design · Immersive VR · Expert evaluation · Cross-cultural study"
 result: "Studied across single-vehicle, multi-vehicle, blind-spot, night, and dynamic shared-space encounters."
+thumbnail: "/images/publications/connected-spaces.webp"
+thumbnail_alt: "Connected shared-space concept linking pedestrians, autonomous vehicles, vehicle eHMI, and SPIU"
 primary_url: "https://doi.org/10.1109/WF-IoT58464.2023.10539511"
 primary_label: "Foundational paper"
 ---
