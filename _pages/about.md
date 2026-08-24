@@ -1,73 +1,35 @@
 ---
 permalink: /
-title: "Designing human-centred autonomy."
+title: ""
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<p class="vc-kicker">Human–Computer Interaction · Autonomous Mobility · Robotics</p>
+I am **Vishal Chauhan**, a doctoral researcher in the Department of Creative Informatics at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), supervised by Prof. Manabu Tsukada and Prof. Takeo Igarashi. My work lies at the intersection of human–computer interaction, autonomous mobility, robotics, and smart cities.
 
-<p class="vc-lede">I am <strong>Vishal Chauhan</strong>, a doctoral researcher at <a href="https://www.u-tokyo.ac.jp/en/">The University of Tokyo</a>. I study how people understand, trust, and collaborate with autonomous vehicles, robots, and connected urban environments.</p>
+My doctoral research investigates how pedestrians understand and respond to autonomous systems in shared spaces. I developed the **Smart Pole Interaction Unit (SPIU)**, an infrastructure-side external human–machine interface that communicates guidance between pedestrians, autonomous vehicles, and robots. I evaluate these interactions through virtual-reality experiments, real-world deployments, interactive prototyping, and human-factors studies.
 
-My doctoral work in the [Tsukada Laboratory](https://tlab.hongo.wide.ad.jp/) centres on the **Smart Pole Interaction Unit (SPIU)**—an infrastructure-side external human–machine interface that helps pedestrians, autonomous vehicles, and robots communicate more clearly in shared spaces. I build with AI, but design for human judgment, context, and care.
+Before beginning my PhD, I completed my master's degree at The University of Tokyo and my bachelor's degree at Vel Tech University, including study at Nanyang Technological University. I also contribute to Tier IV's open-source autonomous-driving platform, Autoware.
 
-<div class="vc-actions">
-  <a class="vc-button vc-button--primary" href="https://vishalchauhan-hi.github.io/publications.html">View publications</a>
-  <a class="vc-button" href="https://vishalchauhan-hi.github.io/cv.html">Curriculum vitae</a>
-</div>
+## Research {#research}
 
-<h2 id="research">Research</h2>
+My research focuses on three connected areas:
 
-<p class="vc-section-intro">My work connects three scales of interaction—from a person reading a vehicle’s intent, to a robot sharing everyday space, to infrastructure coordinating an entire street.</p>
+- **Pedestrian–autonomous-vehicle interaction:** designing clear eHMI and in-cabin interfaces that help people understand vehicle intent.
+- **Human–robot interaction:** studying how robots communicate and negotiate shared everyday spaces with people.
+- **Smart-city infrastructure:** exploring how infrastructure-side interfaces such as SPIU can reduce uncertainty and decision-making burden.
 
-<div class="vc-card-grid">
-  <article class="vc-card">
-    <span class="vc-card__number">01</span>
-    <p class="vc-card__label">Moving intelligence</p>
-    <h3>Autonomous mobility</h3>
-    <p>How pedestrians and passengers understand vehicle intent through eHMI, in-cabin HMI, and interaction design for shared spaces.</p>
-  </article>
-  <article class="vc-card">
-    <span class="vc-card__number">02</span>
-    <p class="vc-card__label">Embodied intelligence</p>
-    <h3>Human–robot interaction</h3>
-    <p>How robots can communicate, negotiate, and collaborate with people safely and naturally in everyday environments.</p>
-  </article>
-  <article class="vc-card">
-    <span class="vc-card__number">03</span>
-    <p class="vc-card__label">Connected intelligence</p>
-    <h3>Smart-city infrastructure</h3>
-    <p>How infrastructure-side interfaces such as SPIU can reduce uncertainty and decision-making burden in complex urban spaces.</p>
-  </article>
-</div>
+## Recent highlights {#news}
 
-<div class="vc-methods">
-  <strong>Methods</strong>
-  <span>VR experiments</span>
-  <span>Real-world studies</span>
-  <span>Interactive prototyping</span>
-  <span>Human-factors evaluation</span>
-</div>
+- **2026:** Two papers presented at ACM CHI 2026 in Barcelona, both receiving Honourable Mention Awards.
+- **2026:** *Colored Shared Spaces* published at HCII 2026.
+- **2025:** Cross-cultural VR evaluation of SPIU presented at ACM VRST 2025 in Montréal.
+- **2025:** Research on human and multimodal-LLM perspectives of SPIU published in the *International Journal of Human–Computer Studies*.
 
-<h2 id="news">Recent highlights</h2>
+For the complete record, see my [publications](https://vishalchauhan-hi.github.io/publications.html) and [curriculum vitae](https://vishalchauhan-hi.github.io/cv.html).
 
-<div class="vc-news">
-  <div class="vc-news__item">
-    <time>2026</time>
-    <p>Two papers at <strong>CHI 2026</strong> in Barcelona, both receiving Honourable Mention Awards.</p>
-  </div>
-  <div class="vc-news__item">
-    <time>2026</time>
-    <p>Paper accepted at <strong>HCII 2026</strong> on <em>Colored Shared Spaces</em>.</p>
-  </div>
-  <div class="vc-news__item">
-    <time>2025</time>
-    <p>Presented a cross-cultural VR evaluation of SPIU at <strong>VRST 2025</strong> in Montréal.</p>
-  </div>
-</div>
-
-<h2 id="contact">Contact</h2>
+## Contact {#contact}
 
 I welcome conversations about research collaboration, human–autonomy interaction, and future academic opportunities. Contact and academic-profile links will be added after the public preview is reviewed.
