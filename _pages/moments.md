@@ -16,7 +16,7 @@ author_profile: true
   </figure>
 
   <figure class="moment-card">
-    <div class="moment-card__image"><img src="{{ '/images/highlights/chi-barcelona.webp' | relative_url }}" alt="Vishal Chauhan at ACM CHI 2026 in Barcelona" loading="lazy"></div>
+    <div class="moment-card__image"><img src="{{ '/images/highlights/chi-barcelona.webp' | relative_url }}?v=20260825" alt="Vishal Chauhan at ACM CHI 2026 in Barcelona" loading="lazy"></div>
     <figcaption><span>Barcelona · 2026</span><strong>ACM CHI</strong><p>Presented two papers; both received Honourable Mention Awards.</p></figcaption>
   </figure>
 
