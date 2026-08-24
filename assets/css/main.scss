@@ -35,46 +35,46 @@
     "layout/json_cv"
 ;
 
-/* Clean, permanently light academic presentation. */
+/* Roman-inspired AcademicPages structure with Vishal's own restrained blue accent. */
 :root,
 html[data-theme="dark"] {
-  --global-base-color: #4f6878;
+  --global-base-color: #7a8288;
   --global-bg-color: #ffffff;
-  --global-footer-bg-color: #f5f5f5;
-  --global-border-color: #eeeeee;
-  --global-dark-border-color: #d5d5d5;
+  --global-footer-bg-color: #f2f3f3;
+  --global-border-color: #f2f3f3;
+  --global-dark-border-color: #bdc1c4;
   --global-code-background-color: #fafafa;
-  --global-code-text-color: #333333;
-  --global-fig-caption-color: #666666;
-  --global-link-color: #39779a;
-  --global-link-color-hover: #24546f;
-  --global-link-color-visited: #39779a;
-  --global-masthead-link-color: #333333;
-  --global-masthead-link-color-hover: #111111;
-  --global-text-color: #444444;
-  --global-text-color-light: #777777;
-  --global-thead-color: #f5f5f5;
+  --global-code-text-color: #494e52;
+  --global-fig-caption-color: #7a8288;
+  --global-link-color: #4b8da8;
+  --global-link-color-hover: #2f6f89;
+  --global-link-color-visited: #4b8da8;
+  --global-masthead-link-color: #7a8288;
+  --global-masthead-link-color-hover: #494e52;
+  --global-text-color: #494e52;
+  --global-text-color-light: #9ba1a6;
+  --global-thead-color: #f2f3f3;
+}
+
+html[data-theme="dark"] {
+  color-scheme: light;
 }
 
 html,
 body,
 .masthead,
-.greedy-nav,
-.masthead__menu-item {
+.greedy-nav {
   background: #ffffff;
 }
 
 body {
-  color: #444444;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  padding-top: 0;
+  color: #494e52;
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", Roboto, "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
-#theme-toggle {
-  display: none;
-}
-
-.masthead__menu-item--lg {
-  font-weight: 700;
+.masthead {
+  position: relative;
 }
 
 .page__title:empty {
@@ -82,56 +82,42 @@ body {
 }
 
 .page__content {
-  max-width: 780px;
-  color: #444444;
-  font-size: 0.98rem;
-  line-height: 1.7;
-}
-
-.page__content p {
-  margin-bottom: 1.15rem;
-}
-
-.page__content h2 {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid #eeeeee;
-  color: #333333;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  font-size: 1.35rem;
-  font-weight: 600;
-}
-
-.page__content li {
-  margin-bottom: 0.45rem;
-}
-
-.page__content a {
-  color: #39779a;
-}
-
-.page__content a:hover,
-.page__content a:focus {
-  color: #24546f;
+  max-width: none;
+  color: #494e52;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .author__avatar img {
-  border: 1px solid #eeeeee;
+  border-color: #f2f3f3;
   box-shadow: none;
 }
 
-.sidebar .author__name {
-  color: #333333;
-}
-
-.author__bio,
-.author__urls {
-  color: #666666;
+@media screen and (min-width: 1024px) {
+  .sidebar {
+    position: sticky;
+    top: 2em;
+    height: auto;
+    max-width: 190px;
+    padding-top: 0;
+    overflow: visible;
+  }
 }
 
 .page__footer {
-  border-top: 1px solid #eeeeee;
-  background: #f5f5f5;
-  color: #8a8f93;
+  position: absolute;
+  bottom: 0;
+  border-top-color: #bdc1c4;
+  background: #f2f3f3;
+  color: #9ba1a6;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+
+  .page__footer {
+    position: relative;
+  }
 }
