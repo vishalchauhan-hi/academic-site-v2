@@ -4,13 +4,13 @@ main:
     url: /#research
 
   - title: "Publications"
-    url: /publications/
+    url: "https://vishalchauhan-hi.github.io/publications.html"
 
   - title: "Highlights"
     url: /#news
 
   - title: "CV"
-    url: /cv/
+    url: "https://vishalchauhan-hi.github.io/cv.html"
 
   - title: "Contact"
     url: /#contact
