@@ -5,6 +5,8 @@ permalink: /highlights/
 author_profile: true
 ---
 
+<p class="page-purpose">Research in motion <span>Talks · fieldwork · visits · awards</span></p>
+
 <p class="page-intro">A chronological record of papers, talks, research visits, engineering work, and moments beyond the publication list.</p>
 
 ## 2026
