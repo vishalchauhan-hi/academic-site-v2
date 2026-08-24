@@ -17,6 +17,10 @@ My doctoral research centers on the **Smart Pole Interaction Unit (SPIU)**—an 
 
 I build with AI, but design for **human intelligence**: the judgment, context, and care that machines do not have. Collaborations across Japan, Singapore, Canada, Norway, and beyond continue to shape how I think about future cities and how humans and machines can share them.
 
+Before my PhD, I completed a master's degree at The University of Tokyo and a bachelor's degree at Vel Tech, with an exchange semester at Nanyang Technological University. Alongside my academic work, I contribute to autonomous-driving systems at TIER IV and to the open-source Autoware ecosystem.
+
+{% include research-animation.html %}
+
 <div class="affiliation-strip" aria-label="Academic, industry, and open-source research context">
   <p class="affiliation-strip__label">Across academia, industry, and open source</p>
   <div class="affiliation-strip__logos">
