@@ -1195,6 +1195,7 @@ html[data-theme="dark"] .theme-toggle__icon--sun {
 .highlight-gallery figcaption {
   margin-top: 0.45rem;
   color: #7a8288;
+  font-family: inherit;
   font-size: 0.72rem;
 }
 
@@ -1248,6 +1249,7 @@ html[data-theme="dark"] .theme-toggle__icon--sun {
 
 .moment-card figcaption {
   padding: 1rem 1.05rem 1.1rem;
+  font-family: inherit;
 }
 
 .moment-card figcaption span,
