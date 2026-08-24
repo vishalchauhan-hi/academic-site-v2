@@ -8,5 +8,8 @@ main:
   - title: "Built Systems"
     url: /portfolio/
 
+  - title: "Highlights"
+    url: /highlights/
+
   - title: "Experience"
     url: /cv/
