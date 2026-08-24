@@ -10,7 +10,24 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+
+  /* Apply the saved/system colour mode before CSS paints to avoid a flash. */
+  (function () {
+    var savedTheme;
+    try {
+      savedTheme = window.localStorage.getItem('theme');
+    } catch (error) {
+      savedTheme = null;
+    }
+    var systemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var theme = savedTheme === 'dark' || savedTheme === 'light'
+      ? savedTheme
+      : (systemDark ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
+  }());
 </script>
 
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css?v={{ site.time | date: '%s' }}">
+<script src="{{ base_path }}/assets/js/theme-toggle.js?v={{ site.time | date: '%s' }}" defer></script>

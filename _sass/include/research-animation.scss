@@ -39,6 +39,76 @@
   margin: 2rem 0 0;
 }
 
+/* The site mode changes the research world itself: Tokyo shifts from day to night. */
+html[data-theme="dark"] .citysketch {
+  --kwc: #74bdd7;
+  --ink: #c8d5da;
+  --muted: #9aabb3;
+  --card: #151d22;
+  --line: #2a353c;
+  --soft: #4a5961;
+  --amber: #ffd26f;
+  --green: #67c887;
+  --wash: rgba(116, 189, 215, 0.2);
+  --sky1: #101a2c;
+  --sky2: #253044;
+  --fuji: #536477;
+  --snow: #dfe9ef;
+  --road: #222a30;
+  --walk: #343b3f;
+  --zebra: #d9e1e4;
+  --glass: #395267;
+  --mull: #7498ad;
+  --sand: #5a5147;
+  --sandw: #766856;
+  --sage: #46584c;
+  --slab: #4c5358;
+  --shop: #f1b75c;
+  --teal: #66caca;
+  --lidar: #66caca;
+  --trainB: #69757d;
+  --trainW: #8ebbd2;
+  --cloud: #c4d1d8;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.26);
+}
+
+html[data-theme="dark"] .citysketch .only-day {
+  display: none;
+}
+
+html[data-theme="dark"] .citysketch .only-night {
+  display: inline;
+}
+
+html[data-theme="dark"] .citysketch .stars {
+  opacity: 0.92;
+}
+
+html[data-theme="dark"] .citysketch .win {
+  opacity: 0.86;
+}
+
+html[data-theme="dark"] .citysketch .win-x {
+  opacity: 0.18;
+}
+
+html[data-theme="dark"] .citysketch .win-x.on {
+  opacity: 1;
+}
+
+html[data-theme="dark"] .citysketch .winb,
+html[data-theme="dark"] .citysketch .glow-n,
+html[data-theme="dark"] .citysketch .t-glow {
+  filter: drop-shadow(0 0 4px rgba(255, 210, 111, 0.58));
+}
+
+html[data-theme="dark"] .citysketch .cf,
+html[data-theme="dark"] .citysketch .s,
+html[data-theme="dark"] .citysketch .softl,
+html[data-theme="dark"] .citysketch .terra {
+  transition: fill 420ms ease, stroke 420ms ease, fill-opacity 420ms ease;
+}
+
 /* ---- card ---- */
 .citysketch{
   background:var(--card);border:1px solid var(--line);
