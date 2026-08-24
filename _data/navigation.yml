@@ -11,5 +11,8 @@ main:
   - title: "News"
     url: /highlights/
 
+  - title: "Moments"
+    url: /moments/
+
   - title: "CV"
     url: /cv/
