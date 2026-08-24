@@ -32,6 +32,7 @@
     "layout/page",
     "layout/archive",
     "layout/sidebar",
+    "include/research-animation",
     "layout/json_cv"
 ;
 
@@ -568,9 +569,26 @@ body {
     position: sticky;
     top: 2em;
     height: auto;
-    max-width: 190px;
+    max-width: 230px;
     padding-top: 0;
     overflow: visible;
+  }
+
+  .author__avatar {
+    display: block;
+    width: 220px;
+    margin-bottom: 1rem;
+  }
+
+  .author__avatar img {
+    display: block;
+    width: 220px;
+    height: 220px;
+    max-width: none;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: 50% 38%;
+    border-radius: 50%;
   }
 }
 

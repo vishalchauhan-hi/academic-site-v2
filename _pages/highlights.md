@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Highlights"
+title: "News"
 permalink: /highlights/
 author_profile: true
 ---
@@ -70,4 +70,4 @@ author_profile: true
 - [Finalist Award at OzCHI 2024](https://tlab.hongo.wide.ad.jp/2024/12/06/finalist-award-in-ozchi24-student-design-challenge-competition/)
 - [Participation in AutomotiveUI 2024, Stanford](https://tlab.hongo.wide.ad.jp/2024/09/27/participation-in-auto-ui-2024-conference/)
 
-See the complete [talk archive]({{ '/talks/' | relative_url }}) or return to [Selected Work]({{ '/publications/' | relative_url }}).
+See the complete [talk archive]({{ '/talks/' | relative_url }}) or return to [Papers]({{ '/publications/' | relative_url }}).

@@ -2,14 +2,14 @@ main:
   - title: "Research"
     url: /#research
 
-  - title: "Selected Work"
+  - title: "Papers"
     url: /publications/
 
-  - title: "Built Systems"
+  - title: "Systems"
     url: /portfolio/
 
-  - title: "Highlights"
+  - title: "News"
     url: /highlights/
 
-  - title: "Experience"
+  - title: "CV"
     url: /cv/
