@@ -2,10 +2,7 @@
 ---
 
 /*
- * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * AcademicPages imports.
  */
 
 @import
@@ -38,266 +35,103 @@
     "layout/json_cv"
 ;
 
-/* Vishal Chauhan — editorial academic identity layer
-   Keeps the Academic Pages structure while establishing a distinct visual system. */
-:root {
-  --vc-accent: #0f766e;
-  --vc-accent-dark: #115e59;
-  --vc-ink: #183047;
-  --vc-muted: #5c6d78;
-  --vc-surface: #f5f8f6;
-  --vc-card: #ffffff;
-  --vc-rule: #dbe5e1;
+/* Clean, permanently light academic presentation. */
+:root,
+html[data-theme="dark"] {
+  --global-base-color: #4f6878;
+  --global-bg-color: #ffffff;
+  --global-footer-bg-color: #f5f5f5;
+  --global-border-color: #eeeeee;
+  --global-dark-border-color: #d5d5d5;
+  --global-code-background-color: #fafafa;
+  --global-code-text-color: #333333;
+  --global-fig-caption-color: #666666;
+  --global-link-color: #39779a;
+  --global-link-color-hover: #24546f;
+  --global-link-color-visited: #39779a;
+  --global-masthead-link-color: #333333;
+  --global-masthead-link-color-hover: #111111;
+  --global-text-color: #444444;
+  --global-text-color-light: #777777;
+  --global-thead-color: #f5f5f5;
 }
 
-html[data-theme="dark"] {
-  --vc-accent: #5eead4;
-  --vc-accent-dark: #99f6e4;
-  --vc-ink: #e8f2f0;
-  --vc-muted: #a9bbb7;
-  --vc-surface: #14211f;
-  --vc-card: #192b28;
-  --vc-rule: #2e4944;
+html,
+body,
+.masthead,
+.greedy-nav,
+.masthead__menu-item {
+  background: #ffffff;
 }
 
 body {
-  letter-spacing: -0.006em;
+  color: #444444;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
 
-.masthead {
-  background: color-mix(in srgb, var(--global-bg-color) 94%, transparent);
-  backdrop-filter: blur(12px);
+#theme-toggle {
+  display: none;
 }
 
-.masthead__menu-item--lg a {
-  color: var(--vc-ink);
-  letter-spacing: -0.02em;
+.masthead__menu-item--lg {
+  font-weight: 700;
 }
 
-.greedy-nav a:hover,
-.greedy-nav a:focus {
-  color: var(--vc-accent-dark);
-}
-
-.page__title {
-  max-width: 760px;
-  margin-bottom: 0.8rem;
-  color: var(--vc-ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.15rem, 5vw, 4rem);
-  font-weight: 500;
-  letter-spacing: -0.045em;
-  line-height: 1.03;
+.page__title:empty {
+  display: none;
 }
 
 .page__content {
-  font-size: 1.02rem;
-  line-height: 1.72;
+  max-width: 780px;
+  color: #444444;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+.page__content p {
+  margin-bottom: 1.15rem;
 }
 
 .page__content h2 {
-  margin-top: 3.6rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 1px solid var(--vc-rule);
-  color: var(--vc-ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.55rem, 3vw, 2.15rem);
-  font-weight: 500;
-  letter-spacing: -0.025em;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid #eeeeee;
+  color: #333333;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+
+.page__content li {
+  margin-bottom: 0.45rem;
 }
 
 .page__content a {
-  color: var(--vc-accent-dark);
+  color: #39779a;
 }
 
-.vc-kicker {
-  margin: 0 0 1.1rem;
-  color: var(--vc-accent-dark);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
-}
-
-.vc-lede {
-  max-width: 760px;
-  margin-bottom: 1.3rem;
-  color: var(--vc-ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
-  line-height: 1.48;
-}
-
-.vc-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.7rem;
-  margin: 1.7rem 0 0;
-}
-
-.page__content .vc-button {
-  display: inline-flex;
-  align-items: center;
-  min-height: 42px;
-  padding: 0.58rem 0.95rem;
-  border: 1px solid var(--vc-rule);
-  border-radius: 999px;
-  color: var(--vc-ink);
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-decoration: none;
-  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
-}
-
-.page__content .vc-button:hover {
-  border-color: var(--vc-accent);
-  transform: translateY(-1px);
-}
-
-.page__content .vc-button--primary {
-  border-color: var(--vc-accent-dark);
-  background: var(--vc-accent-dark);
-  color: #fff;
-}
-
-.vc-section-intro {
-  max-width: 720px;
-  color: var(--vc-muted);
-  font-size: 1.04rem;
-}
-
-.vc-card-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 0.9rem;
-  margin: 1.35rem 0 1rem;
-}
-
-.vc-card {
-  position: relative;
-  min-height: 270px;
-  padding: 1.25rem;
-  overflow: hidden;
-  border: 1px solid var(--vc-rule);
-  border-radius: 14px;
-  background: var(--vc-card);
-}
-
-.vc-card::after {
-  position: absolute;
-  right: -24px;
-  bottom: -34px;
-  width: 110px;
-  height: 110px;
-  border: 18px solid var(--vc-surface);
-  border-radius: 50%;
-  content: "";
-}
-
-.vc-card__number {
-  color: var(--vc-accent-dark);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.75rem;
-  font-weight: 700;
-}
-
-.vc-card .vc-card__label {
-  margin: 1.75rem 0 0.2rem;
-  color: var(--vc-muted);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.vc-card h3 {
-  margin: 0 0 0.65rem;
-  color: var(--vc-ink);
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.22rem;
-  font-weight: 500;
-}
-
-.vc-card p:last-child {
-  position: relative;
-  z-index: 1;
-  margin: 0;
-  color: var(--vc-muted);
-  font-size: 0.86rem;
-  line-height: 1.55;
-}
-
-.vc-methods {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.55rem;
-  align-items: center;
-  padding: 0.9rem 0;
-  color: var(--vc-muted);
-  font-size: 0.76rem;
-}
-
-.vc-methods strong {
-  margin-right: 0.25rem;
-  color: var(--vc-ink);
-}
-
-.vc-methods span {
-  padding: 0.26rem 0.55rem;
-  border: 1px solid var(--vc-rule);
-  border-radius: 999px;
-}
-
-.vc-news {
-  border-top: 1px solid var(--vc-rule);
-}
-
-.vc-news__item {
-  display: grid;
-  grid-template-columns: 74px 1fr;
-  gap: 1rem;
-  padding: 0.95rem 0;
-  border-bottom: 1px solid var(--vc-rule);
-}
-
-.vc-news__item time {
-  color: var(--vc-accent-dark);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.76rem;
-  font-weight: 700;
-}
-
-.vc-news__item p {
-  margin: 0;
+.page__content a:hover,
+.page__content a:focus {
+  color: #24546f;
 }
 
 .author__avatar img {
-  border: 0;
-  box-shadow: 0 14px 34px rgba(24, 48, 71, 0.14);
+  border: 1px solid #eeeeee;
+  box-shadow: none;
 }
 
 .sidebar .author__name {
-  color: var(--vc-ink);
-  font-weight: 700;
-  letter-spacing: -0.02em;
+  color: #333333;
 }
 
-.author__bio {
-  color: var(--vc-muted);
+.author__bio,
+.author__urls {
+  color: #666666;
 }
 
-@media (max-width: 900px) {
-  .vc-card-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .vc-card {
-    min-height: 0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .page__content .vc-button {
-    transition: none;
-  }
+.page__footer {
+  border-top: 1px solid #eeeeee;
+  background: #f5f5f5;
+  color: #8a8f93;
 }
