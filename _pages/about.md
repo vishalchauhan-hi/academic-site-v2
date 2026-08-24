@@ -115,4 +115,4 @@ redirect_from:
   </div>
 </div>
 
-<script src="{{ '/assets/js/research-lens.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/research-lens.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
