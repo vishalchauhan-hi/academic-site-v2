@@ -7,13 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-<p class="profile-kicker">Human–computer interaction · Autonomous mobility · Robotics</p>
+<p class="profile-kicker">Human–computer interaction · Smart cities · Emerging technologies</p>
 
 <h1 class="profile-headline">Human intelligence for an autonomous world.</h1>
 
-<p class="profile-lede">I am <strong>Vishal Chauhan</strong>, an HCI researcher at <a href="https://www.u-tokyo.ac.jp/en/">The University of Tokyo</a>. I design how people understand, trust, and act around autonomous vehicles, robots, and connected urban environments.</p>
+<p class="profile-lede">I am <strong>Vishal Chauhan</strong>, a doctoral candidate in Creative Informatics at <a href="https://www.u-tokyo.ac.jp/en/">The University of Tokyo</a>, advised by Prof. Manabu Tsukada and Prof. Takeo Igarashi. I study how people understand, trust, and act around the intelligent systems entering everyday life—autonomous vehicles, robots, and the connected infrastructure of future cities.</p>
 
-<p class="profile-support">My doctoral work created the <strong>Smart Pole Interaction Unit (SPIU)</strong> and carried it from early sketches through immersive VR, human–AI comparison, cross-cultural evaluation, and an in-the-wild mobile prototype. In parallel, I contribute to Autoware at TIER IV and study human–robot interaction with mobile service robots at AIST.</p>
+<p class="profile-support">My central question is how cities themselves can become interfaces: how emerging technologies—V2X communication, AR/VR, multimodal AI, and interactive infrastructure—can make encounters between humans and machines safer, clearer, and less demanding for people. My doctoral work explores this through the <strong>Smart Pole Interaction Unit (SPIU)</strong>, an infrastructure-side interface that translates connected-vehicle intent into roadside guidance for pedestrians—taken from VR studies through cross-cultural evaluation to an in-the-wild mobile prototype.</p>
+
+<p class="profile-support">I build with AI, but design for <strong>human intelligence</strong>: the judgment, context, and care that machines do not have. Collaborations across Japan, Singapore, Canada, and Norway shape how I think about the cities we are about to live in.</p>
 
 <nav class="research-entrypoints" aria-label="Explore Vishal Chauhan's work">
   <a href="{{ '/publications/' | relative_url }}">
@@ -34,9 +36,27 @@ redirect_from:
 
 <section class="research-lens" data-research-lens data-active="people" aria-labelledby="research-lens-title">
   <div class="research-lens__intro">
-    <p>Interactive research lens</p>
-    <h2 id="research-lens-title">Rotate the question, not the evidence.</h2>
-    <span>The same autonomous encounter looks different depending on where you stand. Choose a lens to see how I frame it.</span>
+    <p>Research agenda</p>
+    <h2 id="research-lens-title">Human-centered intelligence at city scale.</h2>
+    <span>My research asks one question at city scale: <strong>as autonomous systems fill our streets, how do we keep the cognitive burden off people?</strong> I approach it through three connected directions—the vehicles that move through cities, the robots that inhabit them, and the urban infrastructure that can coordinate both.</span>
+  </div>
+
+  <div class="research-directions" aria-label="Three connected research directions">
+    <div>
+      <span>01 · Autonomous mobility</span>
+      <h3>Readable vehicle intent</h3>
+      <p>How eHMI, V2X communication, and immersive simulation can make automated-vehicle behavior easier for pedestrians to understand and anticipate.</p>
+    </div>
+    <div>
+      <span>02 · Human–robot interaction</span>
+      <h3>Everyday coexistence</h3>
+      <p>How service and companion robots should move, signal, and interrupt in shared urban environments without forcing people to adapt to them.</p>
+    </div>
+    <div>
+      <span>03 · Urban intelligence</span>
+      <h3>Human-centered smart cities</h3>
+      <p>How emerging technologies—interactive infrastructure, V2X, digital-twin simulation, and city-scale sensing—can act as a shared language between people and machines, so that smart cities support human judgment rather than demand more of it.</p>
+    </div>
   </div>
 
   <div class="research-lens__experience">
@@ -79,7 +99,7 @@ redirect_from:
       <article class="research-lens__story" id="lens-places" role="tabpanel" aria-labelledby="lens-tab-places" data-lens-panel="places">
         <p class="research-lens__signal">Places · shared intelligence</p>
         <h3>Can the street itself become part of the conversation?</h3>
-        <p>SPIU moves communication beyond a single vehicle, using connected roadside infrastructure to coordinate understandable guidance in shared spaces.</p>
+        <p>Connected urban infrastructure can coordinate shared guidance across vehicles and people. SPIU is my flagship case study: a roadside interface that turns connected-vehicle intent into understandable guidance in shared spaces.</p>
         <p class="research-lens__proof"><strong>Environment signal</strong><span>V2X · smart poles · shared spaces</span></p>
         <a href="{{ '/portfolio/spiu/' | relative_url }}">Meet SPIU →</a>
       </article>
