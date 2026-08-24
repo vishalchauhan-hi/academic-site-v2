@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Vishal Chauhan"
   pronouns         : # example: "she/her"  
-  bio              : "HCI researcher working on pedestrian–autonomous vehicle interaction, robotics, and smart cities."
+  bio              : "Doctoral researcher designing human-centred interactions for autonomous vehicles, robots, and smart cities."
   location         : "Tokyo, Japan"
   employer         : "The University of Tokyo"
   uri              : # URL
@@ -35,14 +35,14 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    :
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  pubmed           :
+  researchgate     :
   scopus           : # URL
   zotero           : # URL
 
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         :
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
