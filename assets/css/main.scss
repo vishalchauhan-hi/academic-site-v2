@@ -370,8 +370,16 @@ html[data-theme="dark"] .theme-toggle__icon--sun {
 }
 
 .affiliation-strip__link--aist img {
-  max-width: 150px;
-  max-height: 25px;
+  min-height: 28px;
+  max-width: 130px;
+  max-height: 32px;
+}
+
+.affiliation-strip__link--aist {
+  width: fit-content;
+  padding: 0.28rem 0.42rem;
+  border-radius: 4px;
+  background: #ffffff;
 }
 
 .affiliation-strip__utokyo span {
@@ -1684,6 +1692,12 @@ html[data-theme="dark"] {
   .affiliation-strip__link:hover,
   .affiliation-strip__link:focus-visible {
     opacity: 1;
+    filter: none;
+  }
+
+  .affiliation-strip__link--aist {
+    opacity: 0.9;
+    background: #ffffff;
     filter: none;
   }
 
