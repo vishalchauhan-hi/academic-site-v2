@@ -349,15 +349,13 @@ html[data-theme="dark"] .theme-toggle__icon--sun {
   align-items: center;
   justify-content: flex-start;
   border-bottom: 0;
-  opacity: 0.52;
-  filter: grayscale(1);
-  transition: filter 160ms ease, opacity 160ms ease, transform 160ms ease;
+  opacity: 1;
+  filter: none;
+  transition: transform 160ms ease;
 }
 
 .affiliation-strip__link:hover,
 .affiliation-strip__link:focus-visible {
-  opacity: 1;
-  filter: grayscale(0);
   transform: translateY(-1px);
 }
 
@@ -1680,18 +1678,25 @@ html[data-theme="dark"] {
   }
 
   .affiliation-strip__link {
-    opacity: 0.7;
-    filter: grayscale(1) brightness(1.75);
-  }
-
-  .affiliation-strip__link:hover,
-  .affiliation-strip__link:focus-visible {
+    width: fit-content;
+    padding: 0.28rem 0.42rem;
+    border-radius: 4px;
+    background: #ffffff;
     opacity: 1;
     filter: none;
   }
 
+  .affiliation-strip__link:hover,
+  .affiliation-strip__link:focus-visible {
+    filter: none;
+  }
+
+  .affiliation-strip__utokyo span {
+    color: #2c3135;
+  }
+
   .affiliation-strip__link--aist {
-    opacity: 0.9;
+    opacity: 1;
     background: #ffffff;
     filter: none;
   }
