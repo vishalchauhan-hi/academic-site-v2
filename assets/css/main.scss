@@ -967,13 +967,8 @@ html[data-theme="dark"] .theme-toggle__icon--sun {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
-  object-fit: cover;
-  transition: transform 180ms ease;
-}
-
-.publication-entry__image:hover img,
-.publication-entry__image:focus-visible img {
-  transform: scale(1.018);
+  object-fit: contain;
+  object-position: center;
 }
 
 .publication-entry__meta {
